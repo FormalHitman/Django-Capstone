@@ -1,0 +1,23 @@
+# ignore all power point presentations
+*.pptx
+# ignore virtual environment
+L3T10/
+*.pyc
+*.pyo
+*.pyd
+_pycache_
+*.log
+*.sqlite3
+*.pot
+*.po
+*.mo
+*.DS_Store
+db.sqlite3
+venv
+myvenv
+ENV/
+.vscode/
+.idea/
+_pycache_/
+*.py[cod]
+*$py.class

@@ -1,0 +1,26 @@
+<!-- about_us.html -->
+{% extends 'pages/base.html' %}
+{% load static %}
+{% block title%}About Us{% endblock %}
+{% block main %}
+<div class = "row">
+    <div class = "col-lg-1"></div>
+    <div class = "col-lg-6 gradient-custom text-white">
+        <div class="row">
+            <h1>About Us</h1>
+            <p>Welcome to ShoesReLife, your premier destination for stylish and comfortable footwear. As the proud owner of this shoe shop, I am dedicated to providing exceptional products and services that exceed your expectations.</p>
+            <p>At ShoesReLife, we understand the importance of quality footwear that not only complements your style but also promotes the health and well-being of your feet.</p>
+            <p>With a keen eye for the latest trends and a strong commitment to sourcing the finest materials, we curate a diverse collection of shoes that cater to every individual's unique taste and requirements.</p>
+        </div>
+        <br>
+        <div class="row">
+            <h1>Meet the team</h1>
+            <img src = "{% static 'pages/Keegan_photo.jpg' %}" alt = "Keegan Profile" class="rounded">
+            <p>Keegan Norris - Owner</p>
+        </div>
+    </div>
+    <div class = "col-lg-5"></div>
+</div>
+<br><div class = "row"></div><br>
+
+{% endblock %}
